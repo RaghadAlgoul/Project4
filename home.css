@@ -1,0 +1,175 @@
+﻿body {
+    /* background-color:antiquewhite*/
+}
+
+#nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    width: 87%;
+    justify-content: left;
+}
+
+    #logo img {
+        height: 80px;
+    }
+
+#nav div {
+    color: white;
+    font-weight: bold;
+}
+
+#nav1 {
+    width: 10%;
+    display: flex;
+    /*      justify-content:space-between;*/
+    justify-content: right;
+    margin-right: 20px;
+}
+
+    #nav1 a {
+        text-decoration: none;
+    }
+
+    #nav1 span {
+        font-size: large;
+    }
+
+
+#main2 {
+    display: flex;
+    height: auto;
+    padding-left: 50px;
+}
+
+    #main2 div {
+        display: flex;
+    }
+
+.butt {
+    border-radius: 7px;
+    background-color: purple;
+    width: 45%;
+    border: none;
+    color: white;
+    height: 45px;
+    margin-top: 30px;
+    font-size: unset;
+}
+
+#homeTxt2 img {
+    height: 600px;
+}
+
+#homeTxt {
+    font-weight: bold;
+    width: 40%;
+    color: white;
+    flex-direction: column;
+    padding-left: 50px;
+    margin-top: 70px;
+}
+
+    #homeTxt h1 {
+        font-size: 50px;
+    }
+
+#homeTxt2 {
+    justify-content: right;
+    width: 60%;
+    padding-right: 50px;
+}
+
+#foote {
+    padding-top: 20px;
+}
+
+    #foote img {
+        height: 30px;
+        margin: 10px;
+    }
+
+#copy {
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 50px;
+}
+
+@media only screen and (min-device-width:481px)and (max-device-width : 768px) {
+
+    #homeTxt2 {
+        padding-right: 0px;
+    }
+
+    #homeTxt {
+        gap: 20px;
+        padding-left: 0px;
+    }
+
+    #nav1 {
+        width: 14%;
+    }
+
+    #copy {
+        height: 130px;
+        align-items: end;
+    }
+}
+
+@media only screen and (min-device-width:0px)and (max-device-width : 481px) {
+    #nav {
+        height: 180px;
+    }
+
+        #nav img {
+            height: 180px;
+        }
+
+    #nav1 {
+        width: 30%;
+    }
+
+        #nav1 span {
+            font-size: xx-large;
+        }
+
+    #main2 {
+        height: auto;
+        flex-direction: column;
+    }
+
+    #homeTxt {
+        width: 85%;
+        align-items: center;
+    }
+
+        #homeTxt h1 {
+            font-size: 70px;
+        }
+
+        #homeTxt p {
+            font-size: xx-large;
+        }
+
+    #foote img {
+        height: 40px;
+        margin: 20px;
+    }
+
+    #homeTxt2 {
+        justify-content: center;
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    #copy {
+        align-items: end;
+        height: 300px;
+    }
+}

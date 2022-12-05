@@ -1,0 +1,87 @@
+﻿#nav {
+    display: flex;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    width: 87%;
+    justify-content: left;
+}
+
+    #logo img {
+        height: 80px;
+    }
+
+#nav div {
+    color: white;
+    font-weight: bold;
+}
+
+#nav1 {
+    width: 10%;
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+}
+
+    #nav1 span {
+        font-size: large;
+    }
+
+#main {
+    color: purple;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#main2 {
+    box-shadow: purple 4px 4px inset;
+    background-color: white;
+    width: 80%;
+    margin-top: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    border-radius: 13px;
+    padding-bottom: 30px;
+}
+
+.Quastion {
+    background-color: #eddcf1;
+    color: purple;
+    width: 90%;
+    height: 70px;
+    border-radius: 12px;
+    padding-left: 2%;
+    padding-bottom:8px;
+}
+
+@media only screen and (min-device-width:0px)and (max-device-width : 481px) {
+    #nav {
+        height: 180px;
+    }
+
+        #nav img {
+            height: 180px;
+        }
+
+    #nav1 {
+        width: 30%;
+    }
+
+        #nav1 span {
+            font-size: xx-large;
+        }
+
+    .Quastion {
+        font-size: xx-large;
+        height: 200px;
+    }
+}

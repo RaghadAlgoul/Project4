@@ -1,0 +1,136 @@
+﻿#header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+#inner-header {
+    width: 80%;
+}
+
+#header-img {
+    height: 80px;
+}
+
+#big-container {
+    display: flex;
+    justify-content: center;
+}
+
+#inner-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#l-side {
+    background-image: url("images/leftSide.png");
+    width: 40%;
+    height: 500px;
+    background-size: cover;
+}
+
+#wellcom {
+    display: inline-block;
+    margin-left: 52%;
+    margin-top: 14%;
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#r-side {
+    width: 46%;
+    height: 500px;
+}
+
+    #r-side p {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #5A22AF;
+    }
+
+#answers {
+    font-size: 2rem;
+    color: #5A22AF;
+    font-weight: bold;
+}
+
+    #answers div {
+        margin-bottom: 15px;
+    }
+
+#button-question {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btnNext {
+    border-radius: 1.5rem;
+    padding: 15px 40px;
+    background-color: #5A22AF;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#answers input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.labelNext {
+    display: inline-block;
+    margin-right: 5px;
+    color: red;
+}
+
+#Label1 {
+    display: none;
+}
+
+@media only screen and (min-device-width:481px)and (max-device-width : 768px) {
+
+    #inner-container {
+        justify-content: center;
+    }
+
+    #l-side {
+        width: 60%
+    }
+
+    #r-side {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-device-width:0)and (max-device-width : 480px) {
+
+    #inner-container {
+        justify-content: center;
+    }
+
+    #l-side {
+        width: 100%;
+        height: 96%;
+    }
+
+    #r-side {
+        width: 100%;
+    }
+
+        #r-side p {
+            font-size: 3.5rem;
+        }
+
+    #answers {
+        font-size: 3rem;
+    }
+
+    .btnNext {
+        padding: 20px 50px;
+        font-size: 3rem;
+    }
+}
